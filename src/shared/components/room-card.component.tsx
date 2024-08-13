@@ -18,8 +18,8 @@ export const RoomCard = (props: CardProps) => {
         className="w-full h-[200px] object-cover"
         loading="lazy"
       />
-      <h4>{props.title}</h4>
-      <p>{props.description}</p>
+      <h4 className="lora-bold">{props.title}</h4>
+      <p className="lora-thin text-xs">{props.description}</p>
       <AnchorBtn text="Ver mais" href="#" type="secondary" />
     </article>
   );

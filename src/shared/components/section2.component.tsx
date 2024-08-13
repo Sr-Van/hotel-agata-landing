@@ -3,18 +3,22 @@ import { RoomCard } from "./room-card.component";
 export const Section2 = () => {
   return (
     <section
-      className="w-full min-h-[100dvh] flex flex-col gap-4 p-10"
+      className="w-full min-h-[100dvh] flex flex-col gap-4 p-10 overflow-x-hidden"
       id="quartos"
     >
       <h1
         data-aos="fade-left"
         data-aos-delay="300"
-        className="courier-prime-regular text-6xl md:text-8xl lg:text-9xl text-slate-400"
+        className="courier-prime-regular text-6xl md:text-8xl lg:text-9xl text-slate-400 w-full text-center"
       >
         HOTEL ÁGATA
       </h1>
 
-      <p data-aos="fade-left" data-aos-delay="670" className="lora-thin">
+      <p
+        data-aos="fade-left"
+        data-aos-delay="670"
+        className="lora-thin mb-6 w-full text-center"
+      >
         Veja nossos quartos e escolha o que seja melhor para sua estadia.
       </p>
 
