@@ -1,0 +1,16 @@
+.text-fade-up {
+  animation: fade-dir both;
+  animation-timeline: view(50% 20%);
+  --dir-value: 200px;
+}
+
+@keyframes fade-dir {
+  from {
+    opacity: 0;
+    transform: translateY(var(--dir-value)) scale(0.7);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
