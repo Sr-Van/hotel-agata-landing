@@ -9,6 +9,11 @@ import { MobileBar } from "./shared/components/mobileBar.component";
 import { Section1 } from "./shared/components/section1.component";
 import { Section2 } from "./shared/components/section2.component";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
+
 function App() {
   return (
     <div className="App min-h-lvh relative">
