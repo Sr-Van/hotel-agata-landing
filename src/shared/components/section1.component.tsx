@@ -2,7 +2,7 @@
 
 export const Section1 = () => {
   return (
-    <section className="w-full min-h-[100dvh] bg-slate-400 flex flex-col justify-center items-center lg:flex-row gap-10 p-10">
+    <section className="w-full min-h-[100dvh] bg-slate-400 flex flex-col justify-center items-center lg:flex-row gap-10 p-10 z-40 relative">
       <div className="border-[1px] border-slate-950 w-full md:w-[70%] lg:w-1/3 p-6">
         <img
           src="/estilo-de-vida-da-pessoa-que-decora-a-porta-da-frente.jpg"
