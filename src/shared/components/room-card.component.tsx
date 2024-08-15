@@ -17,9 +17,14 @@ export const RoomCard = (props: CardProps) => {
         alt="hotel"
         className="w-full h-[200px] object-cover"
         loading="lazy"
+        aria-label="Foto do quarto"
       />
-      <h4 className="lora-bold">{props.title}</h4>
-      <p className="lora-thin text-xs">{props.description}</p>
+      <h4 className="lora-bold" aria-label="Nome do quarto">
+        {props.title}
+      </h4>
+      <p className="lora-thin text-xs" aria-label="Descricão">
+        {props.description}
+      </p>
       <AnchorBtn text="Ver mais" href="#" type="secondary" />
     </article>
   );

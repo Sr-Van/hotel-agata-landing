@@ -1,6 +1,9 @@
 export const Section4 = () => {
   return (
-    <section className="min-h-[50dvh] w-full flex flex-col lg:flex-row lg:justify-between lg:items-center p-10 gap-4 overflow-x-hidden">
+    <section
+      id="serviço"
+      className="min-h-[50dvh] w-full flex flex-col lg:flex-row lg:justify-between lg:items-center p-10 gap-4 overflow-x-hidden"
+    >
       <div
         data-aos="fade-left"
         className="w-full h-full lg:w-1/2 flex flex-col items-center justify-center p-3 md:p-10 border-[1px] border-slate-950"
@@ -14,8 +17,9 @@ export const Section4 = () => {
         <h1
           className="whisper w-full text-center text-4xl md:text-6xl"
           data-aos="fade-right"
+          aria-label="serviços"
         >
-          Serviço
+          Serviços
         </h1>
 
         <p

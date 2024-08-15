@@ -8,6 +8,7 @@ export const Section3 = () => {
         <h1
           className="whisper w-full text-center text-4xl md:text-6xl"
           data-aos="fade-right"
+          aria-label="restaurante"
         >
           Restaurante
         </h1>
@@ -23,7 +24,7 @@ export const Section3 = () => {
 
       <div className="w-full h-full lg:w-1/2 flex flex-col items-center justify-center p-3 md:p-10 border-[1px] border-slate-950">
         <div className="carousel-img1 object-cover w-full">
-          <img src="/img/home1.jpg" alt="" />
+          <img src="/img/home1.jpg" alt="restaurante foto" />
         </div>
       </div>
     </section>

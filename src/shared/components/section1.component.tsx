@@ -13,7 +13,10 @@ export const Section1 = () => {
       </div>
 
       <article className="text-fade-up flex flex-col items-center gap-4 lg:w-1/2 overflow-x-auto">
-        <h2 className="whisper text-7xl w-full text-center text-slate-950">
+        <h2
+          className="whisper text-7xl w-full text-center text-slate-950"
+          aria-label="apresentação do hotel"
+        >
           Hotel Ágata
         </h2>
 
