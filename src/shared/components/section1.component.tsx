@@ -2,17 +2,17 @@
 
 export const Section1 = () => {
   return (
-    <section className="w-full min-h-[100dvh] bg-slate-400 flex flex-col justify-center items-center lg:flex-row gap-10 p-10 z-40 relative">
+    <section className="w-full min-h-[100dvh] bg-slate-400 flex flex-col justify-center items-center lg:flex-row gap-10 p-10 z-40 relative overflow-hidden">
       <div className="border-[1px] border-slate-950 w-full md:w-[70%] lg:w-1/3 p-6">
         <img
-          src="/estilo-de-vida-da-pessoa-que-decora-a-porta-da-frente.jpg"
+          src="/img/home2.jpg"
           alt="hotel"
           className="w-full"
           loading="lazy"
         />
       </div>
 
-      <article className="text-fade-up flex flex-col items-center gap-4 lg:w-1/2">
+      <article className="text-fade-up flex flex-col items-center gap-4 lg:w-1/2 overflow-x-auto">
         <h2 className="whisper text-7xl w-full text-center text-slate-950">
           Hotel Ágata
         </h2>

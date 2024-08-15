@@ -27,7 +27,7 @@ export const Section2 = () => {
           <RoomCard
             title="Quarto Simples"
             description="Quarto com banheiro privado, ar condicionado e uma cama de solteiro."
-            image="/quarto-simples.jpg"
+            image="/img/home1.jpg"
           />
         </li>
 
@@ -35,7 +35,7 @@ export const Section2 = () => {
           <RoomCard
             title="Quarto Duplo"
             description="Quarto com banheiro privado, ar condicionado e duas camas de solteiro."
-            image="/quarto-duplo.jpg"
+            image="/img/home2.jpg"
           />
         </li>
 
@@ -43,7 +43,7 @@ export const Section2 = () => {
           <RoomCard
             title="Suite Standart"
             description="Quarto com banheiro privado, ar condicionado, uma cama de casal, mesa retrátil e armário."
-            image="/quarto-triplo.jpg"
+            image="/img/home3.jpg"
           />
         </li>
 
@@ -51,7 +51,7 @@ export const Section2 = () => {
           <RoomCard
             title="Suite Premium"
             description="Quarto com banheiro privado, ar condicionado, uma cama king, mesa de escritório, varanda e armário."
-            image="/quarto-quadruplo.jpg"
+            image="/img/home4.jpg"
           />
         </li>
       </ul>
